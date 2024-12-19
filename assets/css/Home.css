@@ -32,12 +32,13 @@
 
 .page-home .book-new .list-book {
     flex: 1;
+    /* overflow: hidden; */
 }
 .page-home .book-new .list-book .item {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 167px;
+    width: calc(167px - 24px);
     height: 203px;
     border-radius: 10px;
     background: #fff;
