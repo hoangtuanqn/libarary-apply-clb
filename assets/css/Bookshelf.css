@@ -1,0 +1,136 @@
+.book-shelf .table-container {
+    margin-top: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.book-shelf table {
+    width: 100%;
+    border-collapse: collapse;
+}
+tr {
+    padding-bottom: 23px; /* Thêm khoảng cách phía dưới hàng */
+}
+
+.book-shelf td {
+    vertical-align: top;
+}
+.book-shelf th,
+.book-shelf td {
+    text-align: left;
+    padding: 16px;
+}
+.book-shelf th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.book-shelf tr:nth-child(even) {
+    margin-top: 23px;
+    background-color: #f9f9f9;
+}
+
+.book-shelf tr:hover {
+    background-color: #f1f1f1;
+}
+
+.book-shelf .item-book {
+    display: flex;
+}
+.book-shelf .title-book {
+    color: #4d4d4d;
+    font-size: 2rem;
+    line-height: 1.28;
+}
+.book-shelf .item-book img {
+    margin-left: 23px;
+    width: 75px;
+    height: 100px;
+    border-radius: 5px;
+    border: 1px solid #f1f1f1;
+}
+.book-shelf .desc-1 {
+    margin-top: 10px;
+    color: #4d4d4d;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.28;
+}
+.book-shelf .wrap {
+    margin-left: 47px;
+}
+.book-shelf.status {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 4px 8px;
+    border-radius: 4px;
+    color: #fff;
+    display: inline-block;
+}
+
+.status.in-shelf {
+    display: block;
+    color: #fff;
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    background: #42bb4e;
+    padding: 4px 16px;
+    box-shadow: 1px 2px 6px 2px #ccc;
+    min-width: 120px;
+}
+.status.borrowed {
+    display: block;
+    color: #fff;
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    padding: 4px 16px;
+    box-shadow: 1px 2px 6px 2px #ccc;
+    background-color: #cd1c28;
+}
+.book-shelf .status.borrowed {
+    background-color: #f44336;
+}
+
+.book-shelf .availability span {
+    display: block;
+    margin-bottom: 4px;
+}
+
+.book-shelf .actions button {
+    border: 1px solid #f44336;
+    background-color: #fff;
+    color: #f44336;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.book-shelf .actions button:hover {
+    background-color: #f44336;
+    color: #fff;
+}
+.tick {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #42bb4e;
+}
+
+.availability span:not(.availability span:first-child) {
+    margin-top: 10px;
+}
+.numberBook {
+    margin-top: 10px;
+    display: block;
+    text-align: center;
+    font-size: 1.3rem;
+}
+.numberBook span {
+    color: #42bb4e;
+}

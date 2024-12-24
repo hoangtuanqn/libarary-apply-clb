@@ -53,6 +53,9 @@ body {
     max-width: calc(100% - 28px);
     margin: 0 auto;
     margin-top: 48px;
+    padding-bottom: 38px;
+    min-height: 100vh;
+
 }
 a {
     text-decoration: none;
@@ -68,7 +71,7 @@ a {
     align-items: flex-start;
     border-radius: 10px 0px 0px 10px;
     background: #fff;
-    height: calc(100vh- 86px);
+    /* height: 100%; */
 }
 .sidebar .all-url {
     margin-top: 100px;
